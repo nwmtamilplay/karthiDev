@@ -315,6 +315,7 @@ main {
 .project {
     background-color: var(--clr-secondary-1);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .project.active {

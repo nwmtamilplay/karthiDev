@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Karthikeyan - Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Link Swiper's CSS -->
@@ -55,7 +61,7 @@
                                         and
                                         intuitive user interfaces.</p>
                                     <div class="d-flex gap-md-4 gap-2 mt-4 align-items-center">
-                                        <button
+                                        <a href="karthi-resume.pdf" download="karthi-resume.pdf"
                                             class="custom-btn-2 btn w-max px-4 py-2 full-radius d-flex gap-2 fs-6 align-items-center me-auto me-md-3">
                                             Download CV
                                             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
@@ -63,7 +69,7 @@
                                                 <path fill="currentColor"
                                                     d="M6.5 20q-2.275 0-3.887-1.575T1 14.575q0-1.95 1.175-3.475T5.25 9.15q.425-1.8 2.125-3.425T11 4.1q.825 0 1.413.588T13 6.1v6.05l1.6-1.55L16 12l-4 4l-4-4l1.4-1.4l1.6 1.55V6.1q-1.9.35-2.95 1.838T7 11h-.5q-1.45 0-2.475 1.025T3 14.5t1.025 2.475T6.5 18h12q1.05 0 1.775-.725T21 15.5t-.725-1.775T18.5 13H17v-2q0-1.2-.55-2.238T15 7V4.675q1.85.875 2.925 2.588T19 11q1.725.2 2.863 1.488T23 15.5q0 1.875-1.312 3.188T18.5 20zm5.5-8.95" />
                                             </svg>
-                                        </button>
+                                        </a>
                                         <a target="_blank"
                                             href="https://www.linkedin.com/in/karthi-keyan-8b9b74312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                                             class="socials full-radius d-flex justify-content-center align-items-center">
@@ -242,6 +248,13 @@
                                             <span style="color: var(--clr-primary-1);" class="m-0">REACT NATIVE</span>
                                         </div>
                                     </div>
+                                    <div class="project px-3 py-2 w-max d-flex align-items-center gap-4">
+                                        <img src="images/js.png" alt="">
+                                        <div>
+                                            <h5 class="fs-5 m-0">FileSar - File Sharing Website</h5>
+                                            <span style="color: var(--clr-primary-1);" class="m-0">JavaScript</span>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <div class="project-side w-100 position-relative">
@@ -306,6 +319,39 @@
                                                 and watchlists.
                                             </p>
                                             <a href="https://nwmtamilplay.github.io/moviza/" target="_blank"
+                                                class="custom-btn-2 w-max full-radius px-3 py-1 d-flex gap-2 align-items-center">
+                                                Visit Now <svg xmlns="http://www.w3.org/2000/svg" width="1em"
+                                                    height="1em" viewBox="0 0 24 24">
+                                                    <path fill="currentColor"
+                                                        d="M16.15 13H5q-.425 0-.712-.288T4 12t.288-.712T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L19.3 11.3q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div class="project-box d-flex w-100 my-3 p-4 flex-column gap-3">
+                                            <!-- Swiper -->
+                                            <div class="swiper electronjs w-100">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide"><img class="w-100"
+                                                            src="images/filesar-1.png" alt=""></div>
+                                                    <div class="swiper-slide"><img class="w-100"
+                                                            src="images/filesar-2.png" alt=""></div>
+                                                    <div class="swiper-slide"><img class="w-100"
+                                                            src="images/filesar-3.png" alt=""></div>
+                                                    <div class="swiper-slide"><img class="w-100"
+                                                            src="images/filesar-4.png" alt=""></div>
+                                                </div>
+                                                <div class="swiper-pagination"></div>
+                                            </div>
+                                            <span style="color: var(--clr-primary-1);" class="m-0 mt-3">Js and Firebase
+                                                Storage Api
+                                                JS</span>
+                                            <h6 class="fs-6 m-0 "> FileSar - File Sharing Website
+                                            </h6>
+                                            <p>Developed a secure and efficient file-sharing platform that allows users
+                                                to upload files and receive a unique download key upon completion. This
+                                                key can be shared with others to access and download the file.
+                                            </p>
+                                            <a href="https://filesar.netlify.app/" target="_blank"
                                                 class="custom-btn-2 w-max full-radius px-3 py-1 d-flex gap-2 align-items-center">
                                                 Visit Now <svg xmlns="http://www.w3.org/2000/svg" width="1em"
                                                     height="1em" viewBox="0 0 24 24">
