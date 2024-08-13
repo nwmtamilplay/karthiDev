@@ -8,6 +8,10 @@
     --clr-accent: hsl(274, 50%, 5%);
 }
 
+html {
+    scroll-padding: 50px;
+}
+
 .clr-bg-dark {
     background-color: var(--bg);
 }
@@ -201,9 +205,12 @@ main {
 }
 
 #AboutMe {
-
     box-shadow: 0 0 100vw 100vw;
     height: max-content;
+}
+
+#AboutMe .skill-sec {
+    height: 500px;
 }
 
 #AboutMe .skills {
@@ -268,6 +275,21 @@ main {
 
 #AboutMe .skills .skill:hover>.skill:hover::before {
     opacity: 1;
+}
+
+@media (width < 768px) {
+    #AboutMe .skills .skill:hover>.skill.show::before {
+        opacity: 1;
+    }
+
+    #AboutMe .skills .skill>.skill.show {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    #AboutMe .skill-sec {
+        height: 750px;
+    }
 }
 
 #AboutMe .skills .skill:hover::before {
